@@ -7,6 +7,71 @@
   <style>
     body {
       margin: 0;
+      padding-top: 50px;
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #000; /* fundo preto */
+      color: #f5f5f5; /* texto claro */
+    }
+
+    .logo-container {
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 999;
+      background-color: transparent;
+      padding: 10px;
+    }
+
+    .logo-container img {
+      height: 80px;
+      max-width: 90vw;
+      object-fit: contain;
+    }
+
+    .content {
+      padding: 2rem;
+    }
+
+    a {
+      color: #00bfff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Centraliza o embed do Instagram */
+    .instagram-media {
+      max-width: 540px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      display: block !important;
+      width: 100% !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo no topo central -->
+  <div class="logo-container">
+    <img src="img/sensum_txt_glitch.png" alt="Logo SensumLab" />
+  </div>
+
+  <!-- Conteúdo principal -->
+  <div class="content">
+        <p>Subjective feelings, algorithmic crafting.</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SensumLab</title>
+  <style>
+    body {
+      margin: 0;
       padding-top: 120px;
       font-family: sans-serif;
       text-align: center;
@@ -62,8 +127,29 @@
 
   <!-- Conteúdo principal -->
   <div class="content">
+    <p>Subjective feelings, algorithmic crafting.</p>
     <h1>Bem-vindo ao <strong>SensumLab</strong></h1>
-    <p>Laboratório de ideias, experiências e sensações.</p>
+
+    <!-- Link para Instagram -->
+    <p>
+      <a href="https://instagram.com/sensumlab" target="_blank" rel="noopener noreferrer">
+        Siga no Instagram
+      </a>
+    </p>
+
+    <!-- Post do Instagram incorporado -->
+    <blockquote class="instagram-media"
+      data-instgrm-captioned
+      data-instgrm-permalink="https://www.instagram.com/p/DMi2wLXyZGL/"
+      data-instgrm-version="14">
+    </blockquote>
+    <script async src="//www.instagram.com/embed.js"></script>
+
+  </div>
+
+</body>
+</html>
+
 
     <!-- Link para Instagram -->
     <p>
